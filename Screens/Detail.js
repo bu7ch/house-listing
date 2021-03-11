@@ -4,14 +4,11 @@ import React from "react";
 
 
 const Detail = ({navigation}) => {
+  const item = navigation.getParam('item', {});
   return (
   <View style={styles.container}>
-    <Text>Voici un Detail</Text>
-    <Button
-      onPress={() => navigation.goBack()}
-      title=" Retour à Home"
-    />
-    <StatusBar style="auto" />
+    <Text>{item.title}</Text>
+    
   </View>
   )
 };
