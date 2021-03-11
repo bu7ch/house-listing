@@ -1,0 +1,12 @@
+{
+  "name": "house-listing",
+  "displayName": "house-listing",
+  "expo": {
+    "name": "house-listing",
+    "slug": "house-listing",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
